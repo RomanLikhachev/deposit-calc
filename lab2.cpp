@@ -11,8 +11,8 @@ using namespace std;
 
 void proverkasum ( int sum ) {
          		 if (sum <= k){
-         	         cout<<"Накопления меньше 100000:\n";
-		 	     } else  {cout<<"Накопления больше 100000:\n";
+         	         cout<<"Chislo menshe than 10000000:\n";
+		 	     } else  {cout<<"Chislo bolshe than 10000000:\n";
   				 }
 }
 
@@ -35,7 +35,7 @@ void proverkasrok ( int srok,  int  sum ){
 	 						     sum=sum+sum*(0.12);
 	 						     printsum(sum);
 	 	 		      } else if (srok>365){
-	 	 		      	         cout<<"Превышение количества дней"<<endl;
+	 	 		      	         cout<<"Previshenie"<<endl;
 	 	 		      } 
 				  }
 	 	 		      
@@ -53,7 +53,7 @@ void proverkasrok ( int srok,  int  sum ){
 	 							 sum=sum+sum*(0.15);
 	 							 printsum(sum);
 	 	              }	else if (srok>365){
-	 	 		      	         cout<<"Превышение количества дней"<<endl;
+	 	 		      	         cout<<"Previshenie"<<endl;
 	 	 		      } 	
 	 	 		  
 				 } 	 	   
